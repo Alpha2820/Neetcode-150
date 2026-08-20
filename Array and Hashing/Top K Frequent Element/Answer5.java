@@ -41,3 +41,14 @@ public class Answer5 {
     }
 
 }
+// Time Complexity: O(n log k) - We traverse the array once to build the
+// frequency map, which takes O(n) time. Then we add each unique element to the
+// priority queue, which takes O(log k) time for each element. Since we only
+// keep k elements in the priority queue, the overall time complexity is O(n log
+// k).
+
+// Space Complexity: O(n) - We use a HashMap to store the frequency of each
+// unique element, which takes up additional space proportional to the number of
+// unique elements in the array. The priority queue also takes up space
+// proportional to k, but since k is typically much smaller than n, we can
+// consider the overall space complexity to be O(n).
