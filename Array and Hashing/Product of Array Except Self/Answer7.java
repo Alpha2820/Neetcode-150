@@ -31,3 +31,8 @@ public class Answer7 {
         sc.close();
     }
 }
+// Time Complexity: O(n) - We traverse the array twice, but each operation
+// inside the loops is O(1).
+// Space Complexity: O(1) - We use a constant amount of space for the prefix and
+// postfix variables, and the output array is not counted towards space
+// complexity as it is the required output.
