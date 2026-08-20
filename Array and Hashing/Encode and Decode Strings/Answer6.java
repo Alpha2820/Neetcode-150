@@ -46,3 +46,12 @@ public class Answer6 {
 
     }
 }
+
+// Time Complexity: O(n) - We traverse the list of strings once to encode them,
+// and we traverse the encoded string once to decode it. Each operation inside
+// the loops is O(1).
+
+// Space Complexity: O(n) - We use a StringBuilder to build the encoded string,
+// which takes up additional space proportional to the total length of the
+// strings in the list. The decoded list also takes up additional space
+// proportional to the number of strings in the original list.
