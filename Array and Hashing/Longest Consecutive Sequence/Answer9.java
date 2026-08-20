@@ -42,3 +42,5 @@ public class Answer9{
         sc.close();
     }
 }
+// Time Complexity: O(n) - We traverse the array twice, but each operation inside the loops is O(1) due to the HashSet operations.
+// Space Complexity: O(n) - We use a HashSet to store the elements of the array, which takes up additional space proportional to the number of unique elements in the array.
