@@ -33,3 +33,9 @@ public class Answer3 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) - We traverse the array once, and each operation inside
+// the loop is O(1) due to the HashMap operations.
+// Space Complexity: O(n) - We use a HashMap to store the elements of the array,
+// which takes up additional space proportional to the number of unique elements
+// in the array.

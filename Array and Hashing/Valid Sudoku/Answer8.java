@@ -72,3 +72,13 @@ public class Answer8 {
     }
 
 }
+
+// Time Complexity: O(1) - The size of the Sudoku board is fixed at 9x9, so the
+// time complexity is constant. We perform a constant number of operations for
+// each row, column, and square, resulting in a total of 27 iterations (9 rows +
+// 9 columns + 9 squares).
+
+// Space Complexity: O(1) - We use a constant amount of space for the HashSets
+// used to check for duplicates in each row, column, and square. The maximum
+// number of unique elements in a row, column, or square is 9, so the space used
+// is constant.

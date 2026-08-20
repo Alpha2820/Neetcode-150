@@ -32,3 +32,11 @@ public class Answer2 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) - We traverse both strings once to build the frequency
+// maps, which takes O(n) time. The comparison of the two maps takes O(n) time
+// in the worst case, where n is the length of the strings.
+
+// Space Complexity: O(n) - We use two HashMaps to store the frequency of each
+// character in the strings, which takes up additional space proportional to the
+// number of unique characters in the strings.
