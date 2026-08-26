@@ -36,3 +36,13 @@ public class Answer14 {
     }
 
 }
+
+// Time Complexity: O(n) - The while loop runs until the left pointer is less
+// than the right pointer, which means it will run at most n times, where n is
+// the number of elements in the array. Therefore, the overall time complexity
+// is O(n).
+
+// Space Complexity: O(1) - The space used by the algorithm is constant, as we
+// are not using any additional data structures that grow with the input size.
+// The output variable does not count towards space complexity as it is required
+// to store the result.
