@@ -52,3 +52,11 @@ public class Answer13 {
         sc.close();
     }
 }
+// Time Complexity: O(n^2) - The outer loop runs n times, and for each
+// iteration, the inner while loop can run up to n times in the worst case.
+// Therefore, the overall time complexity is O(n^2).
+
+// Space Complexity: O(1) - The space used by the algorithm is constant, as we
+// are not using any additional data structures that grow with the input size.
+// The output list does not count towards space complexity as it is required to
+// store the results.
