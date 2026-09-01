@@ -33,3 +33,10 @@ public class Answer15 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) - We traverse the string once, and each character is
+// pushed and popped from the stack at most once, leading to linear time
+// complexity.
+
+// Space Complexity: O(n) - We use a stack to keep track of the opening
+// parentheses, which can take up to O(n) space in the worst case.

@@ -42,3 +42,10 @@ public class Answer17 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) - We traverse the array once, and each operation inside
+
+// the loop is O(1) due to the stack operations.
+
+// Space Complexity: O(n) - We use a stack to keep track of the operands, which
+// can take up to O(n) space in the worst case.

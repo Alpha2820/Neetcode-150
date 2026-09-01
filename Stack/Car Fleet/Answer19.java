@@ -42,3 +42,10 @@ public class Answer19 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n log n) - The sorting of the cars based on their
+// positions takes O(n log n) time, and the subsequent traversal of the sorted
+// array takes O(n) time.
+
+// Space Complexity: O(n) - We use a stack to keep track of the fleets, which
+// can take up to O(n) space in the worst case.

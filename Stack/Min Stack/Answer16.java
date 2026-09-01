@@ -54,3 +54,9 @@ public class Answer16 {
         sc.close();
     }
 }
+
+// Time Complexity: O(1) - All operations (push, pop, top, getMin) are performed
+// in constant time.
+
+// Space Complexity: O(n) - We use two stacks to store the elements and the
+// minimum elements, which can take up to O(n) space in the worst case.

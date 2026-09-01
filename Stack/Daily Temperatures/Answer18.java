@@ -32,3 +32,9 @@ public class Answer18 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) - We traverse the array once, and each index is pushed
+// and popped from the stack at most once, leading to linear time complexity.
+
+// Space Complexity: O(n) - We use a stack to keep track of the indices of the
+// temperatures, which can take up to O(n) space in the worst case.
