@@ -28,3 +28,6 @@ public class Answer22 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) where n is the length of the string s. We are traversing the string s once.
+// Space Complexity: O(min(n, m)) where n is the length of the string s and m is the size of the character set (which is 128 for ASCII). In the worst case, we may have to store all characters in the set.

@@ -35,3 +35,8 @@ public class Answer23 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) where n is the length of the string str. We are
+// traversing the string str once.
+// Space Complexity: O(1) as the array will have a fixed size of 26 (for
+// uppercase letters).

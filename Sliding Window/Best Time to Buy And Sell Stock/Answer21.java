@@ -36,3 +36,6 @@ public class Answer21 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) where n is the length of the array arr. We are traversing the array arr once.
+// Space Complexity: O(1) as we are using only a constant amount of extra space.

@@ -76,3 +76,6 @@ public class Answer24 {
         sc.close();
     }
 }
+
+// Time Complexity: O(n) where n is the length of the string p. We are traversing the string p once.
+// Space Complexity: O(1) as the HashMap will have at most 26 characters (for lowercase letters).
