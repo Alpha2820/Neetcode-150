@@ -64,3 +64,7 @@ public class Answer25 {
     }
     
 }
+
+
+// Time Complexity : O(S + T) where S is the length of string s and T is the length of string t. We go through all the characters in s and t once.
+// Space Complexity : O(S + T) where S is the length of string s and T is the length of string t. We store the frequency of characters in both s and t in hash maps.
