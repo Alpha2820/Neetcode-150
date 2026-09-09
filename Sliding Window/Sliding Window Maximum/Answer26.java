@@ -42,3 +42,7 @@ public class Answer26 {
     }
     
 }
+
+// Time Complexity : O(n log k) - We traverse the array once, and for each element, we perform insertion and deletion operations on the priority queue, which takes O(log k) time. Therefore, the overall time complexity is O(n log k).
+
+// Space Complexity : O(k) - We use a priority queue to store the elements of the current window, which takes up additional space proportional to the size of the window (k).
