@@ -96,3 +96,8 @@ public class Answer32 {
     }
     
 }
+
+
+// Time Complexity: O(max(n, m)) where n and m are the number of nodes in the two linked lists. We traverse both linked lists once to add the numbers represented by them.
+
+// Space Complexity: O(max(n, m)) as we are creating a new linked list to store the result, which takes up space proportional to the maximum number of nodes in the two input linked lists.

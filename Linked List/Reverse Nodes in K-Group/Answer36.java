@@ -82,3 +82,7 @@ public class Answer36 {
     }
     
 }
+
+// Time Complexity: O(n) where n is the number of nodes in the linked list. We traverse the entire linked list once to count the number of nodes and then again to reverse the nodes in groups of k.
+
+// Space Complexity: O(1) as we are using constant space for pointers and variables, and not using any additional data structures that grow with input size.

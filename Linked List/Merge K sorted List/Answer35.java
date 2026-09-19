@@ -71,3 +71,8 @@ public class Answer35 {
         sc.close();
     }
 }
+
+
+// Time Complexity: O(N log k) where N is the total number of nodes in all linked lists and k is the number of linked lists. We merge k sorted linked lists using a divide and conquer approach, which takes log k merges, and each merge operation takes O(N) time.
+
+// Space Complexity: O(1) as we are using constant space for pointers and variables, and not using any additional data structures that grow with input size.

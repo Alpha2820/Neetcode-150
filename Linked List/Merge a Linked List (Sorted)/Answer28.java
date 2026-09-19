@@ -104,3 +104,8 @@ public class Answer28 {
         sc.close();
     }
 }
+
+
+// Time Complexity: O(n + m) where n is the number of nodes in the first linked list and m is the number of nodes in the second linked list. We traverse both linked lists once to merge them into a single sorted linked list.
+
+// Space Complexity: O(1) as we are using constant space for pointers and variables, and not using any additional data structures that grow with input size.

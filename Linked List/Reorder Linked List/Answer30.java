@@ -58,3 +58,8 @@ public class Answer30 {
         sc.close();
     }
 }
+
+
+// Time Complexity: O(n) where n is the number of nodes in the linked list. We traverse the entire linked list once to store the nodes in an ArrayList and then again to reorder the nodes.
+
+// Space Complexity: O(n) as we are using an ArrayList to store the nodes of the linked list, which takes up space proportional to the number of nodes in the linked list.

@@ -133,3 +133,8 @@ public class Answer34{
     }
 }
 
+
+
+// Time Complexity: O(1) for both get and put operations. The HashMap allows for O(1) average time complexity for lookups, and the doubly linked list allows for O(1) insertion and deletion of nodes.
+
+// Space Complexity: O(capacity) where capacity is the maximum number of items that can be stored in the cache. The HashMap and doubly linked list will store at most 'capacity' number of nodes.

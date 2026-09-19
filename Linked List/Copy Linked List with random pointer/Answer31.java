@@ -112,3 +112,7 @@ public class Answer31{
         sc.close();
     }
 }
+
+// Time Complexity: O(n) where n is the number of nodes in the linked list. We traverse the entire linked list twice, once to create copies of the nodes and store them in a HashMap, and once to set the next and random pointers for the copied nodes.
+
+// Space Complexity: O(n) as we are using a HashMap to store the mapping between original nodes and their copies, which takes up space proportional to the number of nodes in the linked list.

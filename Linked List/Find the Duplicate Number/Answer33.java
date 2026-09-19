@@ -37,3 +37,8 @@ public class Answer33 {
         sc.close();
     }
 }
+
+
+// Time Complexity: O(n) where n is the number of elements in the array. We traverse the entire array once to find the duplicate number.
+
+// Space Complexity: O(1) as we are using constant space for variables and not using any additional data structures that grow with input size.
