@@ -57,3 +57,10 @@ public class Answer43 {
         sc.close();
     }
 }
+
+// Time Complexity : O(log(min(n, m))) - The binary search algorithm divides the
+// search space in half with each iteration, resulting in logarithmic time
+// complexity.
+
+// Space Complexity : O(1) - The algorithm uses a constant amount of space for
+// variables, regardless of the input size.

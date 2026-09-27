@@ -19,8 +19,7 @@ public class Answer42 {
         }
 
         public void set(String key, String value, int timestamp) {
-           if (!map.containsKey(key))
-            {
+            if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<>());
             }
             map.get(key).add(new Pair(timestamp, value));
@@ -65,3 +64,10 @@ public class Answer42 {
         System.out.println(timeMap.get("bob", 1)); // ""
     }
 }
+
+// Time Complexity : O(log n) - The binary search algorithm divides the search
+// space in half with each iteration, resulting in logarithmic time complexity.
+
+// Space Complexity : O(n) - The algorithm uses space to store the key-value
+// pairs in the map, where n is the number of unique keys and their associated
+// values.

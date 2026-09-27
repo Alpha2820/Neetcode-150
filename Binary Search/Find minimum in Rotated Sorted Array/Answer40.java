@@ -1,26 +1,22 @@
 import java.util.*;
-public class Answer40{
 
-    public static int findMin(int nums[])
-    {
+public class Answer40 {
+
+    public static int findMin(int nums[]) {
         int left = 0;
-        int right = nums.length-1;
-        while(left<-right)
-        {
-            int mid = left = (right-left)/2;
-            if(nums[mid]<nums[right])
-            {
+        int right = nums.length - 1;
+        while (left < -right) {
+            int mid = left = (right - left) / 2;
+            if (nums[mid] < nums[right]) {
                 right = mid;
-            }
-            else
-            {
-                left = mid+1;
+            } else {
+                left = mid + 1;
             }
         }
         return nums[left];
     }
-    public static void main(String args[])
-    {
+
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of elements in the array");
         int n = sc.nextInt();
@@ -34,3 +30,9 @@ public class Answer40{
         sc.close();
     }
 }
+
+// Time Complexity : O(log n) - The binary search algorithm divides the search
+// space in half with each iteration, resulting in logarithmic time complexity.
+
+// Space Complexity : O(1) - The algorithm uses a constant amount of space for
+// variables, regardless of the input size.

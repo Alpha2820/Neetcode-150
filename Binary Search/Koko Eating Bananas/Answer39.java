@@ -2,46 +2,40 @@ import java.util.*;
 
 public class Answer39 {
 
-    public static int getMax(int arr[])
-    {
+    public static int getMax(int arr[]) {
         int max = Integer.MIN_VALUE;
-        for(int i = 0 ; i<arr.length ; i++)
-        {
-            max = Math.max(max,arr[i]);
+        for (int i = 0; i < arr.length; i++) {
+            max = Math.max(max, arr[i]);
         }
         return max;
     }
-    public static int getTimeTake(int arr[],int k)
-    {
+
+    public static int getTimeTake(int arr[], int k) {
         int total = 0;
-        for(int i = 0 ; i<arr.length ; i++)
-        {
-            total += Math.ceil((double)arr[i]/k);
+        for (int i = 0; i < arr.length; i++) {
+            total += Math.ceil((double) arr[i] / k);
         }
         return total;
     }
+
     public static int minEatingSpeed(int[] piles, int h) {
         int low = 1;
         int high = getMax(piles);
         int result = high;
-        while(low<=high)
-        {
-            int mid = low + (high-low)/2;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
             int time = getTimeTake(piles, mid);
-            if(time<=h)
-            {
+            if (time <= h) {
                 result = mid;
-                high = mid-1;
-            }
-            else
-            {
-                low = mid+1;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
         return result;
     }
-    public static void main(String args[])
-    {
+
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of piles");
         int n = sc.nextInt();
@@ -58,3 +52,10 @@ public class Answer39 {
         sc.close();
     }
 }
+
+// Time Complexity : O(n log m) - The binary search algorithm divides the search
+// space in half with each iteration, and for each iteration, we calculate the
+// time taken to eat all piles, resulting in O(n) complexity for each iteration.
+
+// Space Complexity : O(1) - The algorithm uses a constant amount of space for
+// variables, regardless of the input size.
