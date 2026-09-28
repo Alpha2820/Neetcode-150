@@ -17,7 +17,6 @@ class TreeNode{
         this.right = right;
     }
 }
-
 public class Answer44 {
 
     public static TreeNode invertTree(TreeNode root)
