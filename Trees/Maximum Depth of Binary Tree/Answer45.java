@@ -14,8 +14,7 @@ class TreeNode{
     }
 }
 public class Answer45 {
-
-
+    
     public static int maxDepth(TreeNode root)
     {
         if(root==null)
