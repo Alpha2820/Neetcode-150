@@ -88,3 +88,7 @@ public class Answer47 {
         sc.close();
     }
 }
+
+// Time Complexity : The time complexity of the isSameTree function is O(n), where n is the number of nodes in the trees. In the worst case, we may need to visit all nodes in both trees to determine if they are the same.
+
+// Space Complexity : The space complexity is O(h), where h is the height of the trees. This space is used by the recursion stack during the traversal of the trees. In the worst case, the height of the tree can be equal to the number of nodes (for a skewed tree), leading to a space complexity of O(n).
