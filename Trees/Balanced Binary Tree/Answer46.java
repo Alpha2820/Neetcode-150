@@ -79,3 +79,7 @@ public class Answer46 {
         sc.close();
     }
 }
+
+// Time Complexity : O(n) where n is the number of nodes in the binary tree. We visit each node once to calculate the height and check if the tree is balanced.
+
+// Space Complexity : O(h) where h is the height of the binary tree. This space is used by the recursion stack during the traversal of the tree. In the worst case, the height of the tree can be equal to the number of nodes in the tree (for a skewed tree), leading to a space complexity of O(n).

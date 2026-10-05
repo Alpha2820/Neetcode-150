@@ -109,3 +109,7 @@ public class Answer48 {
         sc.close();
     }
 }
+
+// Time Complexity : O(m*n) where m is the number of nodes in the main tree and n is the number of nodes in the subtree. In the worst case, we may have to compare each node of the main tree with each node of the subtree.
+
+// Space Complexity : O(h) where h is the height of the main tree. This space is used by the recursion stack during the traversal of the main tree. In the worst case, the height of the tree can be equal to the number of nodes in the tree (for a skewed tree), leading to a space complexity of O(n).
